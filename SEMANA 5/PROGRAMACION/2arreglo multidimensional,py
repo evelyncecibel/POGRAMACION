@@ -1,0 +1,14 @@
+matriz = [
+    [8,6,5],
+    [1,2,3],
+    [2,4,6]
+]
+
+lista = []
+for fila in matriz:
+    for columna in fila:
+        lista.append(columna)
+
+        lista.sort ()
+print (lista)
+
