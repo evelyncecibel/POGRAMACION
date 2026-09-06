@@ -13,5 +13,6 @@ El objetivo de este programa en Python es simular un sistema básico de reserva 
 
 ### Pasos para la ejecución
 1. Clonar o descargar el repositorio:
+https://github.com/evelyncecibel/POGRAMACION/blob/main/matriz-5x5/reserva_cine.py
 
    
