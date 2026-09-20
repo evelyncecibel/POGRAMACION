@@ -362,5 +362,104 @@
 
 #--------------------- Los parámetros end y sep ------------------------------------
 
-print("1","2","3","4", sep=",")
+#print("1","2","3","4", sep=",")
 #--------------------- Bucle o ciclo while ------------------------------------
+#ejemplo 1
+#x=1
+
+#while x <3:
+#    print (x)
+#    x+=1
+#print("fin")
+
+#ejemplo 2
+
+#x = 1
+#while x < 11:
+#    print("Evelyn")
+#    x+=1
+#print("fin")
+#--------------------- Ejercicio práctico #5 (Sucesión Fibonacci)------------------------------------
+
+#num_uno, num_dos = 0, 1 #0,1,1,2,3,
+
+#while num_dos <= 1597:
+#    print(num_uno, num_dos, end=" ")
+
+#    num_uno = num_uno + num_dos
+#    num_dos = num_uno + num_dos
+
+
+#------------------------- Las sentencias break y continue con while-----------
+#print("while con la sentencia continue")
+#contador = 0
+#while contador < 10:
+#    contador +=1
+#    if contador == 5:
+#        continue
+#    print(f"vaor actual de la variable: {contador}")
+
+#------------------La función len()---------------------------------------------
+
+#opcion 1
+
+#print("hola tiene", len("hola"), "caracterires")
+
+#opcion 2
+#lngitud = len ("la wikipedia")
+#print("la wikipedia tiene", lngitud, "caracteres" )
+
+
+#------------------ Concatenación en Python 3 con el método format()---------------------------------------------
+#metodo 1
+#nombre = "evelyn"
+#edad= 20
+#print("hola {} tienes {} aaños".format(nombre, edad))
+
+#metodo 2
+#print("hola {nombre} tienes {edad} aaños".format(nombre = "evelyn", edad=29))
+
+#metodo 3
+#nombre = "evelyn"
+#edad= 20
+#print("hola {1} tienes {0} aaños".format(edad, nombre))
+
+#------------------ Concatenación en Python con f-Strings-------------------------------------
+
+
+#print(f"{1+5}")
+
+#print(f"el resultado de 1 + 5 = {6}")
+
+#nombre = "eve"
+#estatura = 1.45
+#edad = 29
+
+#print(f"nombre {nombre} tienes {edad} y mides {estatura}")
+
+#nombre =input("cual es tu nombre")
+#num_uno = int (input("introdcuce unnumero: "))
+#num_dos = int(input("introduce un segundo nombre: "))
+
+#print(f" hola {nombre} el resultado de {num_uno} + {num_dos}: {num_uno + num_dos}")
+
+#------------------ El método strip()-------------------------------------
+
+#cadena = " Hola Ernesto "
+#cadena = cadena.strip("s tHo")
+
+#print(cadena)
+
+#cadena = "\thola Ernesto\n"
+
+#print(cadena)
+
+#cadena = cadena.strip()
+#print(cadena)
+
+#------------------ Los métodos rstrip() y lstrip()-------------------------------------
+cadena = "\thola Ernesto\n"
+print(cadena)
+
+cadena=cadena.rstrip("s tHo\t\n")
+print(cadena)
